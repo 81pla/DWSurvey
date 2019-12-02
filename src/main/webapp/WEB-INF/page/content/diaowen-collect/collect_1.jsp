@@ -122,6 +122,7 @@
 									<!-- <span  id="clipLinkSpan"   style="display: none;font-size:16px;color:#80AA00;">复制成功</span> -->
 									</div>
 									<div class="scmcRightTopLeftNote">复制下面的问卷链接到QQ，Email等工具中直接发给被用户</div>
+									<div><span style="color: #d15985;line-height: 36px;">找不到人填问卷？加QQ群：457647860 互填互助快速完成调研</span></div>
 								</div>
 							</div>
 							<div style="clear: both;"></div>
@@ -129,12 +130,11 @@
 								<div class="scmcSurveyLink">
 									<span class="scmcSurveyLinkLeft">&nbsp;</span>
 									<span class="scmcSurveyLinkCenter"  id="linkTextarea" >
-									<%-- http://www.diaowen.net/wenjuan/${survey.sid }.html --%>
-									${baseUrl }/wenjuan/${survey.sid }.html
+									${baseUrl }/dwsurvey/${survey.sid }.html
 									</span>
 									<span class="scmcSurveyLinkRight"><span id="clipLinkSpan" style="display: none;">复制成功</span></span>
-									<a href="#" style="display: block;" class="clipLink" id="clipLink" data-clipboard-text="${baseUrl }/wenjuan/${survey.sid }.html">复制链接</a>
-									<a target="_blank" href="${baseUrl }/wenjuan/${survey.sid }.html" style="margin-left: 12px;background: rgb(130, 144, 154);width: 95px;height: 50px;text-align: center;border-radius: 3px;color: #ffffff;" >打开</a>
+									<a href="#" style="display: block;" class="clipLink" id="clipLink" data-clipboard-text="${baseUrl }/dwsurvey/${survey.sid }.html">复制链接</a>
+									<a target="_blank" href="${baseUrl }/dwsurvey/${survey.sid }.html" style="margin-left: 12px;background: rgb(130, 144, 154);width: 95px;height: 50px;text-align: center;border-radius: 3px;color: #ffffff;" >打开</a>
 								</div>
 							</div>
 						</div>
